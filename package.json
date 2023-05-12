@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  },
+  "name": "evaluationstudi1htmlcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node-sass scss/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nico578/EvaluationSTUDI1HTMLCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nico578/EvaluationSTUDI1HTMLCSS/issues"
+  },
+  "homepage": "https://github.com/Nico578/EvaluationSTUDI1HTMLCSS#readme",
+  "description": ""
+}

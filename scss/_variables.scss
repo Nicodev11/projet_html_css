@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px) {
+  .home {
+    h1 {
+      font-size: 30px;
+    }
+    .refuges,
+    .dispensaires,
+    .retraite,
+    .peda {
+      text-align: center;
+
+      h2 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+    }
+
+    .container .col > img {
+      width: 300px;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  .evenements {
+    .main {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  .contact {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home {
+    h1 {
+      font-size: 30px;
+    }
+    .refuges,
+    .dispensaires,
+    .retraite,
+    .peda {
+      h2 {
+        font-size: 25px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}

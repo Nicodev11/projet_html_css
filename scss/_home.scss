@@ -1,0 +1,35 @@
+.home {
+  .container .col > img {
+  width: 400px;
+}
+
+h1 {
+  font-family: "Handlee", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+h2 {
+  font-family: cursive;
+  margin-bottom: 20px !important;
+}
+h4 {
+  text-align: center;
+}
+p {
+  margin-top: 20px !important;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.refuges,
+.retraite {
+  text-align: start;
+  background: rgb(87, 58, 58);
+}
+
+.dispensaires,
+.peda {
+  text-align: end;
+  background: whitesmoke;
+}
+}

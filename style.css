@@ -1,0 +1,128 @@
+.home .container .col > img {
+  width: 400px; }
+
+.home h1 {
+  font-family: "Handlee", cursive;
+  font-size: 35px;
+  text-align: center; }
+
+.home h2 {
+  font-family: cursive;
+  margin-bottom: 20px !important; }
+
+.home h4 {
+  text-align: center; }
+
+.home p {
+  margin-top: 20px !important;
+  font-size: 17px;
+  text-align: justify; }
+
+.home .refuges,
+.home .retraite {
+  text-align: start;
+  background: #573a3a; }
+
+.home .dispensaires,
+.home .peda {
+  text-align: end;
+  background: whitesmoke; }
+
+body {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 112px 1fr 50px;
+  min-height: 100vh;
+  width: 100%;
+  grid-template-areas: "header" "main" "footer"; }
+
+.navbar {
+  background: radial-gradient(circle, #0060ff 0%, #00156c 100%); }
+
+.navbar-brand > img {
+  width: 150px; }
+
+.banner > img {
+  width: 100%;
+  margin-top: -10px; }
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  height: 51px;
+  background: radial-gradient(circle, #0060ff 0%, #00156c 100%); }
+
+.contact {
+  text-align: center; }
+  .contact h1 {
+    color: orange; }
+  .contact .bi {
+    width: 40px;
+    height: 40px; }
+
+.evenements .container-fluid .main .container {
+  width: 80%; }
+
+.evenements .container-fluid .main h1 {
+  color: orange;
+  text-align: center; }
+
+.evenements .container-fluid .main h4 {
+  text-align: center;
+  margin-top: 10px; }
+
+.evenements .container-fluid .main h5 {
+  margin: auto 20px; }
+
+.evenements .card-title {
+  font-weight: bold;
+  color: orange; }
+
+.evenements .container-fluid .main img {
+  width: 100%; }
+
+@media screen and (max-width: 992px) {
+  .home h1 {
+    font-size: 30px; }
+  .home .refuges,
+  .home .dispensaires,
+  .home .retraite,
+  .home .peda {
+    text-align: center; }
+    .home .refuges h2,
+    .home .dispensaires h2,
+    .home .retraite h2,
+    .home .peda h2 {
+      font-size: 30px; }
+    .home .refuges h3,
+    .home .dispensaires h3,
+    .home .retraite h3,
+    .home .peda h3 {
+      font-size: 25px; }
+  .home .container .col > img {
+    width: 300px; }
+  .home p {
+    font-size: 1rem; }
+  .evenements .main h1 {
+    font-size: 30px; }
+  .contact h1 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 576px) {
+  .home h1 {
+    font-size: 30px; }
+  .home .refuges h2,
+  .home .dispensaires h2,
+  .home .retraite h2,
+  .home .peda h2 {
+    font-size: 25px; }
+  .home .refuges h3,
+  .home .dispensaires h3,
+  .home .retraite h3,
+  .home .peda h3 {
+    font-size: 20px; }
+  .home .refuges p,
+  .home .dispensaires p,
+  .home .retraite p,
+  .home .peda p {
+    font-size: 15px; } }

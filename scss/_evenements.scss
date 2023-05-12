@@ -1,0 +1,26 @@
+.evenements {
+  .container-fluid .main {
+    .container {
+      width: 80%;
+    }
+    h1 {
+      color: orange;
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+      margin-top: 10px;
+    }
+    h5 {
+      margin: auto 20px;
+    }
+  }
+  .card-title {
+    font-weight: bold;
+    color: orange;
+  }
+
+  .container-fluid .main img {
+    width: 100%;
+  }
+}
